@@ -1,0 +1,3 @@
+
+compile = "javac -d target -sourcepath src src/com/niu/Main.java"
+run = ["java".:target/dependency/* "target", "com.niu.Main"]
